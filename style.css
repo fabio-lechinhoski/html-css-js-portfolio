@@ -277,6 +277,8 @@ section {
 .about-details-container {
   justify-content: center;
   flex-direction: column;
+  width: 60%; /* Adiciona 60% de largura */
+  margin: 0 auto; /* Garante que o conteúdo fique centralizado horizontalmente */
 }
 
 .about-containers,
@@ -322,14 +324,18 @@ section {
 }
 
 .experience-sub-title {
+  position: relative;
   color: rgb(85, 85, 85);
   font-weight: 600;
   font-size: 1.75rem;
   margin-bottom: 2rem;
+  align-self: center;
+  text-align: center;
 }
 
 .experience-details-container {
   display: flex;
+  align-items: center;
   justify-content: center;
   flex-direction: column;
 }
